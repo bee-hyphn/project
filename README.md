@@ -6,11 +6,7 @@
   <title>My Project</title>
   <style>
     /* General Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       background-color: black;   /* full-page black background */
@@ -18,7 +14,7 @@
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 20px;
-      min-height: 100vh;         /* ensures background covers full screen */
+      min-height: 100vh;
     }
 
     /* Header */
@@ -32,16 +28,16 @@
       width: 200px;
       border-radius: 50%;  /* circular */
       margin-bottom: 15px;
-      transition: transform 0.3s ease; /* smooth hover effect */
+      transition: transform 0.3s ease;
     }
 
     .header-img:hover {
-      transform: scale(1.1) rotate(5deg); /* zoom + tilt on hover */
+      transform: scale(1.1) rotate(5deg);
     }
 
     .title {
       font-size: 2.5rem;
-      color: #ffcc00; /* bright yellow */
+      color: #ffcc00;
       text-shadow: 2px 2px 8px #ff0099;
     }
 
@@ -91,7 +87,6 @@
     <div class="header">
       <img src="https://static.wikia.nocookie.net/dragonball/images/b/ba/Goku_anime_profile.png" 
            alt="Goku profile" class="header-img">
-
       <h1 class="title">My Project</h1>
     </div>
 
