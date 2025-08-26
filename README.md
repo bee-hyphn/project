@@ -11,10 +11,11 @@
   <header>
     <div class="header">
       <img src="https://static.wikia.nocookie.net/dragonball/images/b/ba/Goku_anime_profile.png" 
-     alt="Goku profile" class="header-img">
+           alt="Goku profile" class="header-img">
 
       <h1 class="title">My Project</h1>
     </div>
+
     <nav>
       <ul>
         <li><a href="#contact">Contact</a></li>
